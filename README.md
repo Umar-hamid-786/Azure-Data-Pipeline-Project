@@ -60,6 +60,9 @@ Set up Azure Data Lake Storage with bronze, silver, and gold containers.
 Set up an Azure Databricks workspace and Synapse Analytics workspace.
 Configure Azure Key Vault for secret management.
 
+![Architecture Diagram](https://github.com/Umar-hamid-786/Azure-Data-Pipeline-Project/blob/main/Images/Azure_data_project.png?raw=true)
+
+
 ### Step 2: Data Ingestion
 Set up SQL Server: Install SQL Server and SQL Server Management Studio (SSMS). Restore the AdventureWorks database.
 Ingest Data with ADF: Create pipelines in ADF to copy data from SQL Server to the bronze layer in ADLS.
