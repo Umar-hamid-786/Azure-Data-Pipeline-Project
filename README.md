@@ -1,4 +1,4 @@
-![Architecture Diagram](https://github.com/Umar-hamid-786/Azure-Data-Pipeline-Project/blob/main/image.png?raw=true)
+(![Architecture Diagram](https://github.com/Umar-hamid-786/pinterest-data-pipeline549/blob/main/Azure-data_project.png?raw=true))
 
 
 # Azure End-to-End Data Engineering Real-Time Project
