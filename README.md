@@ -60,7 +60,7 @@ Set up Azure Data Lake Storage with bronze, silver, and gold containers.
 Set up an Azure Databricks workspace and Synapse Analytics workspace.
 Configure Azure Key Vault for secret management.
 
-![Architecture Diagram](https://github.com/Umar-hamid-786/Azure-Data-Pipeline-Project/blob/main/Images/Azure_data_project.png?raw=true)
+![Diagram](https://github.com/Umar-hamid-786/Azure-Data-Pipeline-Project/blob/main/Images/Resource_group.png?raw=true)
 
 
 ### Step 2: Data Ingestion
