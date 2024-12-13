@@ -45,11 +45,11 @@ SQL Server (On-Premises): Source of customer and sales data.
 
 # Setup Instructions
 
-## Prerequisites
+### Prerequisites
 An Azure account with sufficient credits.
 Access to an on-premises SQL Server database.
 
-## Step 1: Azure Environment Setup
+### Step 1: Azure Environment Setup
 Create Resource Group: Set up a new resource group in Azure.
 Provision Services:
 Create an Azure Data Factory instance.
@@ -57,27 +57,27 @@ Set up Azure Data Lake Storage with bronze, silver, and gold containers.
 Set up an Azure Databricks workspace and Synapse Analytics workspace.
 Configure Azure Key Vault for secret management.
 
-## Step 2: Data Ingestion
+### Step 2: Data Ingestion
 Set up SQL Server: Install SQL Server and SQL Server Management Studio (SSMS). Restore the AdventureWorks database.
 Ingest Data with ADF: Create pipelines in ADF to copy data from SQL Server to the bronze layer in ADLS.
 
-## Step 3: Data Transformation
+### Step 3: Data Transformation
 Mount Data Lake in Databricks: Configure Databricks to access ADLS.
 Transform Data: Use Databricks notebooks to clean and aggregate the data, moving it from bronze to silver and then to gold.
 
-## Step 4: Data Loading and Reporting
+### Step 4: Data Loading and Reporting
 Load Data into Synapse: Set up a Synapse SQL pool and load the gold data for analysis.
 Create Power BI Dashboard: Connect Power BI to Synapse and create visualizations based on business requirements.
 
-## Step 5: Automation and Monitoring
+### Step 5: Automation and Monitoring
 Schedule Pipelines: Use ADF to schedule the data pipelines to run daily.
 Monitor Pipeline Runs: Use the monitoring tools in ADF and Synapse to ensure successful pipeline execution.
 
-## Step 6: Security and Governance
+### Step 6: Security and Governance
 Manage Access: Set up role-based access control (RBAC) using Azure Entra ID (formerly Active Directory).
 
-## Step 7: End-to-End Testing
+### Step 7: End-to-End Testing
 Trigger and Test Pipelines: Insert new records into the SQL database and verify that the entire pipeline runs successfully, updating the Power BI dashboard.
 
-## Conclusion
+# Conclusion
 This project provides a robust end-to-end solution for understanding customer demographics and their impact on sales. The automated data pipeline ensures that stakeholders always have access to the most current and actionable insights.
